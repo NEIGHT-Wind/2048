@@ -1,0 +1,204 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+body{
+	background-color: #faf8ef;
+}
+.warpper{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: #faf8ef;
+}
+.warpper .title {
+	width: 100%;
+	height: 20%;
+}
+.warpper .title .log{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.warpper .title .log .span1{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: 75%;
+	text-align: center;
+	line-height: 90px;
+	font-size: 80px;
+	color: #776e65;
+	font-weight: 700;
+}
+.warpper .title .log .span2{
+	display: inline-block;
+	padding-left: 30px;
+	float: left;
+	width: 100%;
+	height: 25%;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	color: #776e65;
+}
+
+
+.warpper .title .mark{
+	float: left;
+	width: 50%;
+	height: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.warpper .title .mark div{
+	background-color: #bbada0;
+	border-radius: 10%;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+	color: #eee4da;
+	font-weight: 700;
+}
+.warpper .title .mark .now{
+	float: left;
+	width: 30%;
+	height: 100%;
+	line-height: 35px;
+}
+.warpper .title .mark .history{
+	float: right;
+	width:50%;
+	height: 100%;
+	line-height: 35px;
+}
+.warpper .title .mark span {
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+.warpper .gamepage {
+	position: relative;
+	margin: 0 40px;
+}
+.warpper .gamepage div {
+	width: 520px;
+	height: 120px;
+}
+.warpper .gamepage div ul{
+	width: 100%;
+	height: 100%;
+	border-bottom: 10px solid #bbada0;
+	border-right: 10px solid #bbada0;
+	background-color: #c9c6bd;
+}
+.warpper .gamepage div ul li {
+	float: left;
+	width: 25%;
+	height: 100%;
+	box-sizing: border-box;
+	border-top: 10px solid #bbada0;
+	border-left: 10px solid #bbada0;
+	text-align: center;
+	line-height: 110px;
+	font-weight: 700;
+}
+.warpper .gamepage .gameover {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+.warpper .gamepage .gameover p{
+	font-size: 60px;
+    font-weight: 700;
+    width: 100%
+    height: 60px;
+    line-height: 60px;
+    margin-top: 150px;
+    color: #776e65;
+    text-align: center;
+}
+.warpper .gamepage .gameover div {
+	width: 120px;
+	height: 40px;
+	background: #8f7a66;
+	border-radius: 3px;
+	color: #f9f6f2;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 60px auto 0px auto;
+}
+
+.num2{
+	background-color: #eee4da;
+	color: #776e65;
+	font-size: 55px;
+}
+.num4{
+	background-color: #ede0c8;
+	color: #776e65;
+	font-size: 55px;
+}
+.num8{
+	color: #f9f6f2;
+	background-color: #f2b179;
+	font-size: 55px;
+}
+.num16{
+	color: #f9f6f2;
+	background-color: #f59563;
+	font-size: 55px;
+}
+.num32{
+	color: #f9f6f2;
+    background-color: #f67c5f;
+    font-size: 55px;
+}
+.num64{
+	color: #f9f6f2;
+    background-color: #f65e3b;
+    font-size: 55px;
+}
+.num128{
+	color: #f9f6f2;
+    background-color: #edcf72;
+    font-size: 55px;
+}
+.num256{
+	color: #f9f6f2;
+    background-color: #edcc61;
+    font-size: 55px;
+}
+.num512{
+	color: #f9f6f2;
+    background-color: #edc850;
+    font-size: 45px;
+}
+.num1024{
+	color: #f9f6f2;
+    background-color: #edc53f;
+    font-size: 35px;
+}
+.num2048{
+	color: #f9f6f2;
+    background-color: #edc22e;
+    font-size: 35px;
+}
+.num4096{
+	
+}
+.num8192{
+
+}

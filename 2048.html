@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>2048</title>
+	<link rel="stylesheet" type="text/css" href="./src/2048.css">	
+</head>
+<body>
+	<div class="warpper">
+		<div class="title">
+			<div class="log">
+				<span class="span1">2048</span>
+				<span class="span2">将相同的数字融合，得到
+				<span>2048</span>获胜</span>
+			</div>
+			<div class="mark">
+				<div class="now">分数
+					<span>0</span>
+				</div>
+				<div class="history">历史最高分数
+					<span>0</span>
+				</div>
+			</div>
+		</div>
+		<div class="gamepage">
+			<div class="opacity">
+				<div class="one">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="two">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="three">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="four">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="gameover">
+				<p></p>
+				<div class="again"></div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="./src/2048.js"></script>
+	<script type="text/javascript">
+	var again = document.getElementsByClassName('again')[0];
+	var gameover = document.getElementsByClassName('gameover')[0];
+	var opacity = document.getElementsByClassName('opacity')[0];
+	again.addEventListener('click', function () {
+		opacity.style.opacity = '1';
+		gameover.style.display = 'none';
+		if (again.innerText == '再试一次') {
+			main.again();
+		} else {
+			main.keydown();
+		}
+	}, false)
+	</script>
+</html>
